@@ -116,12 +116,14 @@ Tässä menin /usr/local/bin kansioon ja listasin sen sisällä olevien tiedosto
 ![Add file: 14 6](14-6.png)
 
 - Tiedostossa on otettu käyttöön nyt myös ``sys`` kirjasto. ``import sys``.
-- Jos käyttäjä syöttää pelkästään komennon, komento tulostaa sen käyttöohjeet. ``if len(sys.argv) < 2``: len() funktio ottaa listan pituuden(sys.argv muodostaa listan), jos lista on pienempi kuin 2 tulostaa komento käyttöohjeet ja lopettaa scriptin.
-- folder muuttuja määritelty = sys.argv[1]. Eli kansio haetaan sys.argv muodostamasta listasta sijalta [1].
-- if not os.path.isdir(folder) funktio tarkastaa tiedostopolun. Jos funktio ei löydä tiedostoa se tulostaa ``{käyttäjän syöttämä polku} is not a directory``. ``.format(folder)`` lisää tulostukseen ``{}`` kohtaan käyttäjän syöttämän tiedostopolun. Tulostuksen jälkeen komento sulkeutuu(``sys.exit(1)``).
+- Jos käyttäjä syöttää pelkästään komennon, komento tulostaa sen käyttöohjeet. ``if len(sys.argv) < 2``. ``len()`` funktio ottaa listan pituuden(sys.argv muodostaa listan), jos lista on pienempi kuin 2 tulostaa komento käyttöohjeet ja lopettaa scriptin.
+- ``folder`` muuttuja määritelty ``= sys.argv[1]``. Eli kansio haetaan ``sys.argv`` muodostamasta listasta sijalta [1].
+- ``if not os.path.isdir(folder)`` funktio tarkastaa tiedostopolun. Jos funktio ei löydä tiedostoa se tulostaa ``{käyttäjän syöttämä polku} is not a directory``. 
+- ``.format(folder)`` lisää tulostukseen ``{}`` kohtaan käyttäjän syöttämän tiedostopolun. Tulostuksen jälkeen komento sulkeutuu(``sys.exit(1)``).
 - ``cmd = ...`` määrittelee komennon. Tässä komento hakee kansiosta tiedostojen tiedot.
   - ``-lh`` näyttää listauksen teidostojen tiedoista, kuten oikeudet, koon, edellisen muokkauksen yms.
   - ``-a`` näyttää myös piilotetut teidostot eli ``.`` alkavat. 
+- ``os.system(cmd)`` suorittaa komennon ja tulostaa sen vastauksen.
   
 Testataan vielä komentoa
 
