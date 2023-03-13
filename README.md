@@ -131,7 +131,7 @@ Tässä testissä testasin hakea komennolla /usr kansion sekä testasin, että i
 
 Testataan vielä toisellä käyttäjällä. Haetaan käyttäjän miikkas kotihakemisto:
 
-![Add file: 14 8](14-8.png)
+![Add file: 14 8](17-8.png)
 
 Tämäkin toimii.
 
