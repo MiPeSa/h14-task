@@ -66,11 +66,11 @@ Toimii!
       
 - ``listrights`` tiedoston sisään:
     
-    import os
+      import os
     
-    cmd = 'ls -l'
+      cmd = 'ls -l'
     
-    os.system(cmd)
+      os.system(cmd)
     
 - ``os`` on pythonin kirjasto. Otetaan se tiedostoon käyttöön ``import os``
 - Määritellään komento muuttujaan ``cmd`` ja komento mitä halutaan suorittaa: ``'ls -l'``
