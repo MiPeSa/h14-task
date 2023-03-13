@@ -111,7 +111,7 @@ Toimii!
 
 Tässä menin /usr/local/bin kansioon ja listasin sen sisällä olevien tiedostojen oikeudet 
 
-- Muokataan tiedostoa siten, että komento ottaa parametrina käyttäjän syöttämän tiedostopolun, josta komento tulostaa tiedot kansiosta. Lisätään myös if lauseet, jos käyttäjä syöttää pelkän komennon niin tulostetaan käyttöohjeet tai, jos tiedostopolku on väärä vastaa komento virheilmoituksella.
+- Muokataan tiedostoa siten, että komento ottaa parametrina käyttäjän syöttämän tiedostopolun, josta komento tulostaa tiedot kansiosta. Lisätään myös if lauseet, jos käyttäjä syöttää pelkän komennon niin tulostetaan käyttöohjeet tai jos tiedostopolku on väärä vastaa komento virheilmoituksella.
 
 ![Add file: 14 6](14-6.png)
 
