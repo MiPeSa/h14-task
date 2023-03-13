@@ -55,7 +55,7 @@ Toimii!
 
 ## b) ja c) Tee Linuxiin uusi komento Pythonilla / Tee Linuxiin komento, joka tekee jotain monelle tiedostolle.
 
-- Teen python komennon, joka listaa kaikkien tiedostojen oikeudet ja koon kansiosta/teidostopolusta, jonka käyttäjä kirjoittaa komennon perään.
+- Teen python komennon, joka listaa kaikkien tiedostojen tiedot esim. oikeudet ja koon kansiosta/teidostopolusta, jonka käyttäjä kirjoittaa komennon perään.
 
 - Teen ensin simppelin komennon testatakseni, että se toimii.
 
